@@ -13,6 +13,17 @@ public class ErrorMessageContainingSensitiveData {
         {
             exceptUnsupportedOperation.printStackTrace();
         }
+        
+        
+         try
+        {
+            throw new UnsupportedOperationException();
+        }
+        
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
 
 
         try
