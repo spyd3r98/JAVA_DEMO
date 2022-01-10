@@ -30,7 +30,7 @@ public class ErrorMessageContainingSensitiveData {
         {
             throw new UnsupportedOperationException();
         }
-                catch (Exception e)
+                catch (SQLException e)
         {
             IO.writeLine(e);
         }
@@ -40,7 +40,7 @@ public class ErrorMessageContainingSensitiveData {
             throw new UnsupportedOperationException();
         }
         
-        catch (Exception e)
+        catch (SQLException e)
         {
             System.out.print(e);
         }
@@ -49,7 +49,7 @@ public class ErrorMessageContainingSensitiveData {
         {
             throw new UnsupportedOperationException();
         }
-        catch (Exception e)
+        catch (SQLException e)
         {
             System.out.println(e);
         }
