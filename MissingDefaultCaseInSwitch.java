@@ -7,11 +7,11 @@ public class MissingDefaultCaseInSwitch {
         switch (points) {
             case 0:
                 result = new BigDecimal(INTEREST_RATE_AT_ZERO_POINTS);
-                break;
+           
 
             case 1:
                 result = new BigDecimal(INTEREST_RATE_AT_ONE_POINTS);
-                break;
+               
 
             case 2:
                 result = new BigDecimal(INTEREST_RATE_AT_TWO_POINTS);
