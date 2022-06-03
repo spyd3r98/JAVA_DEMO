@@ -9,7 +9,7 @@ public class AvoidCatchingGenericException {
             Integer.parseInt("Test");
         }
         // EMB-ISSUE: CodeIssueNames.AVOID_CATCHING_GENERIC_EXCEPTION
-        catch (Exception exception)
+        catch (IOException exception)
         {
             IO.writeLine("Caught Exception");
         }
@@ -52,7 +52,7 @@ public class AvoidCatchingGenericException {
             Integer.parseInt("Test");
         }
         // EMB-ISSUE: CodeIssueNames.AVOID_CATCHING_GENERIC_EXCEPTION/no-detect
-        catch (IOException e)
+        catch (Exception e)
         {
             IO.writeLine("Caught IOException");
         }
